@@ -27,7 +27,3 @@ def generate_valid_address(address='001d3f1ef827552ae1114027bd3ecf1f086ba0F9'):
 			new_address += address[i].upper()
 		else:
 			new_address += address[i]
-	# print(new_address)
-	#
-	# print(check_sum('001d3F1ef827552Ae1114027BD3ECF1f086bA0E9')) # Invalid address, should return False
-	# print(check_sum(new_address))
